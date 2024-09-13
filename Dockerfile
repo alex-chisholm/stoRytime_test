@@ -24,6 +24,7 @@ RUN R -e "install.packages('remotes')" && \
     R -e "remotes::install_cran('shiny')" && \
     R -e "remotes::install_cran('quarto')" && \
     R -e "remotes::install_cran('bslib')" && \
+    R -e "remotes::install_cran('bsicons')" && \
     R -e "remotes::install_cran('httr2')" && \
     R -e "remotes::install_cran('base64enc')"
 
