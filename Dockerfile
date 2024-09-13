@@ -26,6 +26,7 @@ RUN R -e "install.packages('remotes')" && \
     R -e "remotes::install_cran('bslib')" && \
     R -e "remotes::install_cran('bsicons')" && \
     R -e "remotes::install_cran('httr2')" && \
+    R -e "remotes::install_cran('rvest')" && \
     R -e "remotes::install_cran('base64enc')"
 
 # Set the working directory
