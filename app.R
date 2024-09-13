@@ -1,7 +1,9 @@
 library(shiny)
 library(bslib)
+library(bsicons)
 library(quarto)
 library(httr2)
+library(rvest)
 library(base64enc)
 
 addResourcePath('www', 'www')
