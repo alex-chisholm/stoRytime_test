@@ -4,6 +4,8 @@
   "platform": "4.3.2",
   "metadata": {
     "appmode": "shiny",
+    "quarto_version": "1.5.57",
+    "quarto_engines": {"knitr","markdown"},
     "primary_rmd": null,
     "primary_html": null,
     "content_category": null,
