@@ -7,8 +7,6 @@ get_story <- function(prompt,
   
   url_txt <- paste0(base_url, ACCOUNT_ID, "/ai/run/@cf/meta/llama-3.1-8b-instruct")
   
-  message("Sending request to get story with", API_KEY, " and ", ACCOUNT_ID)
-  
   # Make an API request
   response_text <- httr2::request(url_txt) |>
     httr2::req_headers(
